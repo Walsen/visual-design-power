@@ -1,0 +1,32 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "visual-design",
+  "version": "1.0.0",
+  "description": "Frontend design and motion toolkit: Impeccable, Taste Skill and Emil Kowalski's skills, plus the Figma MCP server for design context and the Playwright MCP server for checking pages in a real browser.",
+  "author": {
+    "name": "Sergio Rodriguez"
+  },
+  "keywords": [
+    "design",
+    "redesign",
+    "ui",
+    "ux",
+    "frontend",
+    "landing page",
+    "website",
+    "polish",
+    "critique",
+    "audit",
+    "typography",
+    "layout",
+    "animation",
+    "motion",
+    "transition",
+    "gesture",
+    "figma",
+    "playwright",
+    "screenshot",
+    "browser"
+  ],
+  "license": "SEE LICENSE IN licenses/"
+}
