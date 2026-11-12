@@ -1,0 +1,36 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="visual-design power">
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2="256" y2="256" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#15171C"/>
+      <stop offset="1" stop-color="#0B0C0F"/>
+    </linearGradient>
+    <linearGradient id="curve" x1="56" y1="196" x2="200" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FF7A5A"/>
+      <stop offset="0.5" stop-color="#F75C8B"/>
+      <stop offset="1" stop-color="#7C5CFF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- canvas tile -->
+  <rect x="0" y="0" width="256" height="256" rx="60" fill="url(#tile)"/>
+  <rect x="0.75" y="0.75" width="254.5" height="254.5" rx="59.25" fill="none" stroke="#FFFFFF" stroke-opacity="0.06" stroke-width="1.5"/>
+
+  <!-- bezier control handles -->
+  <g stroke="#FFFFFF" stroke-opacity="0.28" stroke-width="2.5" stroke-linecap="round">
+    <line x1="56" y1="196" x2="112" y2="196"/>
+    <line x1="200" y1="60" x2="144" y2="60"/>
+  </g>
+
+  <!-- easing curve -->
+  <path d="M56 196 C112 196 144 60 200 60" stroke="url(#curve)" stroke-width="15" fill="none" stroke-linecap="round"/>
+
+  <!-- control points (hollow) -->
+  <g fill="#15171C" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="2.5">
+    <circle cx="112" cy="196" r="7"/>
+    <circle cx="144" cy="60" r="7"/>
+  </g>
+
+  <!-- anchor points (solid) -->
+  <circle cx="56" cy="196" r="10" fill="#FF7A5A"/>
+  <circle cx="200" cy="60" r="10" fill="#7C5CFF"/>
+</svg>

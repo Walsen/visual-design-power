@@ -1,4 +1,8 @@
-# visual-design power for Kiro
+<p align="center">
+  <img src="assets/logo.png" alt="visual-design power" width="128" height="128">
+</p>
+
+<h1 align="center">visual-design power for Kiro</h1>
 
 A Kiro power for frontend design and motion work. It bundles three sets of agent skills with two MCP servers:
 
@@ -29,6 +33,7 @@ Kiro turns the power on when a request mentions one of the keywords in `plugin.j
 plugin.json   manifest and activation keywords
 mcp.json      Figma and Playwright MCP servers
 skills/       20 skills
+assets/       logo (svg + png)
 licenses/     upstream licenses
 ```
 
