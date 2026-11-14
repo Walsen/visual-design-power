@@ -22,6 +22,13 @@ https://github.com/Walsen/visual-design-power
 
 Kiro turns the power on when a request mentions one of the keywords in `plugin.json`, such as design, UI, landing page, animation, Figma or Playwright.
 
+## Getting started
+
+The power ships two guide skills:
+
+- **`visual-design-onboarding`** checks Node.js, the Playwright MCP package, a local Chromium and the Impeccable launcher (`scripts/check-setup.sh`). It also tests the Playwright and Figma servers and tells you what to fix. Ask Kiro to "get started with the visual-design power".
+- **`visual-design-guide`** maps requests to the right skill and lists the Kiro workarounds: the Impeccable decision page, missing subagents, screenshots without Playwright, and the manual detector run.
+
 ## Requirements
 
 - Node.js, for the Playwright MCP server and Taste Skill's scripts.
@@ -32,7 +39,7 @@ Kiro turns the power on when a request mentions one of the keywords in `plugin.j
 ```
 plugin.json   manifest and activation keywords
 mcp.json      Figma and Playwright MCP servers
-skills/       20 skills
+skills/       22 skills (20 upstream + 2 guides)
 assets/       logo (svg + png)
 licenses/     upstream licenses
 ```
@@ -41,11 +48,12 @@ licenses/     upstream licenses
 |---|---|---|
 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) (v4.8.2) | impeccable | Apache-2.0 |
 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) (v2.5.1) | design-taste-frontend | MIT |
+| This power | visual-design-onboarding, visual-design-guide | MIT |
 | [emilkowalski/skill](https://github.com/emilkowalski/skill) | animate, animate-expo, animation-performance, animation-vocabulary, apple-design, ask-sonner, break-ui, choreograph, emil-design-eng, find-animation-opportunities, gestures, improve-animations, mobile-native, pick-ui-library, prototype, remove-animations, review-animations, write-swift | MIT |
 
 ## Credits
 
-The skills are the work of their authors and are copied here unchanged under their licenses, which are in `licenses/`. For the latest versions, see the upstream repositories above.
+The upstream skills are the work of their authors and are copied here unchanged under their licenses. The two guide skills are original to this power and MIT-licensed. All licenses are in `licenses/`. For the latest versions, see the upstream repositories above.
 
 ## Known limitations
 
